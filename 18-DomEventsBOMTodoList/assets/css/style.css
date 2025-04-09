@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(135deg, #a2c3fd, #fbc2eb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.calculator h2 {
+  color: #333;
+}
+
+#display {
+  height: 60px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.btn {
+  height: 60px;
+  font-size: 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* ------------------------------ task 2 --------------------- */
+
+
+body {
+  background-color: #f8f9fa;
+}
+
+.todo-app {
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.todo-app input {
+  border-radius: 12px;
+}
+
+.todo-app button {
+  border-radius: 12px;
+}
+
+.list-group-item {
+  border-radius: 8px !important;
+  margin-bottom: 10px;
+}
+
+.btn-danger {
+  border-radius: 12px;
+}
