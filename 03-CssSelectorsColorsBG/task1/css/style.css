@@ -1,0 +1,31 @@
+body {
+    max-width: 1300px;
+    max-height: 600px;
+    margin: auto;
+}
+
+.header  {
+    color: darkblue;
+    font-weight: bold;
+     font-family: monospace;
+     font-size: 35px;
+}
+
+.description {
+    color: rgba(224, 224, 25, 0.653);
+    text-align: center;
+}
+
+.wrapper {
+    width: 1300px;
+    height: 1000px;
+    background-image: url(../img/photo-1448375240586-882707db888b.jpg);
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.container{
+    color: rgba(224, 224, 25, 0.653);
+    text-align: center;
+}
