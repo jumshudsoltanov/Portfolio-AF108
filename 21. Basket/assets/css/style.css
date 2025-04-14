@@ -1,0 +1,16 @@
+.card {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .counter { font-size: 1.2rem; margin: 0 10px; }
